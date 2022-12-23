@@ -6,7 +6,7 @@ function validaForm(x,y){
 }
 
 
-form.addEventListener('submit'), function(e){
+form.addEventListener('submit', function(e){
 e.preventDefault();
 const a = document.getElementById('campo-a');
 const b = document.getElementById('campo-b');
@@ -19,4 +19,4 @@ if(!validaForm(a.valueAsNumber,b.valueAsNumber)){
 } else{
     alert(mensagemSucesso)
 }
-}
+})
